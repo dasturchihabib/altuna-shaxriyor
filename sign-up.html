@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaxriyor</title>
+    <link rel="stylesheet" href="./sign-up.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+</head>
+
+<body>
+    <nav>
+        <div class="first">
+            <div class="top">
+                <div class="left">
+                    <button>Ish vaqti <br> 8:00 - 22:00</button>
+                    <a href="tel:998995384841">(99) 538 48 41</a>
+                    <a href="tel:998998208310">(99) 820 83 10</a>
+                </div>
+
+                <div class="right">
+                    <i class="mode moon fa-duotone fa-regular fa-moon-stars"></i>
+                    <i class="mode sun fa-duotone fa-regular fa-sun-haze"></i>
+                    <p>Yetkazib berish xizmati </p>
+
+                    <div class="lang">
+                        <img class="uz" src="./assets/uzb.png" alt="">
+                        <img class="en" src="./assets/eng.png" alt="">
+                        <img class="ru" src="./assets/rus.png" alt="">
+                        <p>UZ</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+
+                    <div class="down">
+                        <div class="in">
+                            <div class="uzb">
+                                <img src="./assets/uzb.png" alt="">
+                                <p>UZ</p>
+                            </div>
+
+                            <div class="rus">
+                                <img src="./assets/eng.png" alt="">
+                                <p>EN</p>
+                            </div>
+
+                            <div class="eng">
+                                <img src="./assets/rus.png" alt="">
+                                <p>RU</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="logo">
+                    <a href="/index.html">
+                        <img src="./assets/ALTUNA.png" alt="">
+                    </a>
+                    <div class="txt">
+                        <h1>ALTUNA</h1>
+                        <h3>Ijara Do'koni</h3>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <a href="./index.html">
+                        <p>Bosh sahifa</p>
+                    </a>
+                    <p>Bo'limlar
+                        <i class="fa-solid fa-angle-down fa-sm"></i>
+                    </p>
+                    <a href="./products.html">
+                        <p>Mahsulotlar</p>
+                    </a>
+                    <a href="./about.html">
+                        <p>Biz haqimizda</p>
+                    </a>
+                </div>
+
+                <div class="side">
+                    <div class="likes user">
+                        <i class="fa-duotone fa-solid fa-user-tie tie"></i>
+                    </div>
+
+                    <div class="wel">
+                        <span>XUSH KELIBSIZ</span>
+                        <div class="in">
+                            <a href="/log-in.html">
+                                <p class="log">LOG IN</p>
+                            </a>
+
+                            <p>/</p>
+
+                            <a href="/sign-up.html">
+                                <p class="sign">SIGN UP</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cart">
+                        <a href="/cart.html">
+                            <div class="likes">
+                                <i class="fa-regular fa-truck-fast truck"></i>
+                            </div>
+                        </a>
+                        <div class="cp">
+                            <span>Savat</span>
+                            <p class="uzs">100,000 uzs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="last">
+            <div class="search">
+                <div class="categories">
+                    <p>
+                        Barcha mahsulotlar
+                        <i class="fa-solid fa-angle-down fa-sm"></i>
+                    </p>
+                    </p>
+                </div>
+
+                <input type="text" placeholder="Biror narsa qidiring...">
+
+                <i class="fa-regular fa-magnifying-glass-dollar"></i>
+            </div>
+
+            <p>Narxlar hamyonbop</p>
+            <p>Dam olish kunlarisiz</p>
+            <p>To'lovlar istalgan uslubda</p>
+        </div>
+    </nav>
+
+    <main>
+        <section class="nav">
+            <p>Bosh sahifa / Bo'limlar / <span>Hisob yaratish / Sign Up</span></p>
+        </section>
+
+        <section class="sign">
+            <img src="./assets/login.svg" alt="">
+
+            <div class="inps">
+                <div class="head">
+                    <h1>Hisob yaratish</h1>
+                    <p>BIZGA QO'SHILING</p>
+                </div>
+
+                <div class="name">
+                    <h1>Ismingiz</h1>
+
+                    <input type="text" class="inp3" placeholder="Ismingizni kiriting..." required>
+                </div>
+
+                <div class="gmail">
+                    <h1>Email Address</h1>
+
+                    <input type="text" class="inp4" placeholder="Example@gmail.com" required>
+                </div>
+
+                <div class="password">
+                    <h1>Parol</h1>
+
+                    <input class="inp" id="pas1" type="password" placeholder="Parolingizni kiriting..." required>
+
+                    <button class="eye icon1" onclick="hide()">
+                        <i class="fa-solid fa-eyes fa-xl"></i>
+                    </button>
+
+                    <button class="mark icon2" onclick="see()">
+                        <i class="fa-solid fa-face-eyes-xmarks fa-xl"></i>
+                    </button>
+                </div>
+
+                <div class="confirm">
+                    <h1>Parolni tasdiqlang</h1>
+
+                    <input class="inp2" id="pas2" type="password" placeholder="Parolingizni tasdiqlang..." required>
+
+                    <button class="eye icon3">
+                        <i class="fa-solid fa-eyes fa-xl"></i>
+                    </button>
+
+                    <button class="mark icon4">
+                        <i class="fa-solid fa-face-eyes-xmarks fa-xl"></i>
+                    </button>
+                </div>
+
+                <div class="btn">
+                    <button id="signin">Hisob yaratish</button>
+
+                    <p>ALLAQACHON FOYDALANUVCHI ?
+                        <a href="log-in.html">
+                            <span>
+                                Tizimga kirish
+                            </span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="top">
+            <div class="left">
+                <h1>Altuna ijara do'koni</h1>
+
+                <p class="tel">Ish vaqti 08:00 - 22:00
+                    <a href="tel:998995384841">(99) 538 48 41</a>
+                    <a href="tel:998998208310" style="margin-top: 10px;">(99) 820 83 10</a>
+                </p>
+
+                <div class="location">
+                    <p>Keles, Abduraxmonov Qorasaroy MFY, <span>49A-uy.</span></p>
+                </div>
+
+                <div class="card">
+                    <div class="social-icons">
+                        <p>@Altuna_uz</p>
+                        <a>Follow</a>
+
+                        <svg fill="#000000" xml:space="preserve" viewBox="0 0 461.001 461.001"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="Layer_1"
+                            version="1.1">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <g>
+                                    <path
+                                        d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"
+                                        style="fill:#F61C0D;"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="social-icons">
+                        <p>@prokat_uz_bot</p>
+                        <a>Follow</a>
+                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="14" fill="url(#paint0_linear_87_7225)" />
+                            <path
+                                d="M22.9866 10.2088C23.1112 9.40332 22.3454 8.76755 21.6292 9.082L7.36482 15.3448C6.85123 15.5703 6.8888 16.3483 7.42147 16.5179L10.3631 17.4547C10.9246 17.6335 11.5325 17.541 12.0228 17.2023L18.655 12.6203C18.855 12.4821 19.073 12.7665 18.9021 12.9426L14.1281 17.8646C13.665 18.3421 13.7569 19.1512 14.314 19.5005L19.659 22.8523C20.2585 23.2282 21.0297 22.8506 21.1418 22.1261L22.9866 10.2088Z"
+                                fill="white" />
+                            <defs>
+                                <linearGradient id="paint0_linear_87_7225" x1="16" y1="2" x2="16" y2="30"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#37BBFE" />
+                                    <stop offset="1" stop-color="#007DBB" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+
+                    <div class="social-icons">
+                        <p>@ALTUNA_UZ</p>
+                        <a>Follow</a>
+                        <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <g>
+                                    <path fill-rule="nonzero" fill="#FF1493"
+                                        d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="right">
+                <div class="list menu">
+                    <h1>Mahsulotlarimiz</h1>
+                    <p class="description">Stol va stul</p>
+                    <p>Sarpa qutilar</p>
+                    <p>O'choq va qozon</p>
+                    <p>Samovor</p>
+                    <p>Chinni idishlar</p>
+                    <p>Ventilator</p>
+                    <p>Gullar</p>
+                </div>
+
+                <div class="list menu">
+                    <h1>To'y bezaklarimiz :</h1>
+                    <p class="kok">Karabl</p>
+                    <p class="kok">Arka</p>
+                    <p class="kok">Kalso</p>
+                    <p class="kok">Baby</p>
+                </div>
+
+                <div class="menu">
+                    <h1>COMPANY</h1>
+                    <p class="description">Biz haqimizda</p>
+                    <p>Profil</p>
+                    <p>Mahsulotlarimiz</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="midle">
+            <div class="lang">
+                <img class="uz" src="./assets/uzb.png" alt="">
+                <img class="en" src="./assets/eng.png" alt="">
+                <img class="ru" src="./assets/rus.png" alt="">
+                <p>UZ</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+            <div class="sub">
+                <h1>OBUNA BO'LING VA BIRINCHI BUYURTMANGIZ UCHUN <span>10% CHEGIRMA</span> OLING</h1>
+            </div>
+
+            <a href="https://t.me/shahnozaDecoration" target="_blank">
+                <span class="sub4">Bizga qo'shiling</span>
+            </a>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+<script src="sign.js"></script>
+
+</html>
